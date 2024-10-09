@@ -36,7 +36,7 @@ const (
 	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)
 )
 
-// EntitiesData represents the entities data that can be stored in a persistent storage,
+// EntitiesData represents the entities data that can be stored in persistent storage,
 // OR can be embedded by other protocols that transfer OTLP entities data but do not
 // implement the OTLP protocol.
 //
