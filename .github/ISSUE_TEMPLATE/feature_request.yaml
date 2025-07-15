@@ -1,0 +1,61 @@
+name: Feature Request
+description: Request a new feature or enhancement for opentelemetry-proto-go
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a feature!
+  
+  - type: textarea
+    id: is-your-feature-request-related-to-a-problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: Please describe. A clear and concise description of what the problem is.
+      placeholder: I'm always frustrated when...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: describe-the-solution-you-would-like
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+  
+  - type: textarea
+    id: describe-alternatives-you-have-considered
+    attributes:
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+    validations:
+      required: true
+  
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: |
+        Please describe your use case and why this feature would be beneficial.
+        This helps us understand the impact and prioritize the feature request.
+    validations:
+      required: true
+  
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: |
+        Add any other context or screenshots about the feature request here.
+        
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  
+  - type: dropdown
+    attributes:
+      label: Tip
+      description: This element is static, used to render a helpful sub-heading for end-users and community members to help prioritize issues. Please leave as is.
+      options:
+        - <sub>[React](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/) with 👍 to help prioritize this issue. Please use comments to provide useful context, avoiding `+1` or `me too`, to help us triage it. Learn more [here](https://opentelemetry.io/community/end-user/issue-participation/).</sub>
+      default: 0
